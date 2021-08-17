@@ -6,7 +6,8 @@
 |  Code Challenge 04     | [Fibonacci Sequence](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/Fibonacci-Sequence)  |
 |  Code Challenge 05     | [linked-list](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/linked-list)  |
 |  Code Challenge 06     | [linked-list-insertions](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/linked-list-insertions)  |
-
+|  Code Challenge 07    | [linked-list-kth](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/linked-list-kth)  |
+|  Code Challenge 08    | [linked-list-zip](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/linked-list-zip)  |
 
 
 
