@@ -94,13 +94,24 @@ while(check){
         }
     }
 
-
-
-
-
 // ------------------------- insert after -----------------------
 
+insertAfter(afterVal, insertValue) {
 
+    let node = new Node(insertValue);
+    let currentNode = this.head;
+
+        while (currentNode) {
+            if (currentNode.value === afterVal) {
+
+                node.next = currentNode.next;
+                currentNode.next = node;
+                break;
+            }
+            currentNode = currentNode.next;
+        }
+    
+}
 
 
 }
@@ -111,6 +122,7 @@ newNode.append(2);
 newNode.include(2);
 newNode.toString();
 newNode.insertBefore(2,5)
+newNode.insertAfter(2,88)
 console.log(newNode.toString());
 console.log(newNode);
 
