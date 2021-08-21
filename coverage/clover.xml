@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628431561996" clover="3.2.0">
-  <project timestamp="1628431561997" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1629558061639" clover="3.2.0">
+  <project timestamp="1629558061640" name="All files">
+    <metrics statements="36" coveredstatements="34" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="6" elements="50" coveredelements="46" complexity="0" loc="36" ncloc="36" packages="2" files="2" classes="2"/>
+    <package name="linked-list">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="node.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/linked-list/node.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="17" type="stmt"/>
+        <line num="6" count="17" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="stack-and-queue">
+      <metrics statements="33" coveredstatements="31" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <file name="stack.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/stack-and-queue/stack.js">
+        <metrics statements="33" coveredstatements="31" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="10" count="17" type="stmt"/>
+        <line num="11" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="17" type="stmt"/>
+        <line num="15" count="17" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="30" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
