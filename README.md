@@ -14,6 +14,8 @@
 |  Code Challenge 08    | [linked-list-zip](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/linked-list-zip)  |
 |  Code Challenge 09    | [palindrome-linked-list](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/palindrome-linked-list)  |
 |  Code Challenge 11    | [stack-queue-pseudo](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/stack-queue-pseudo)  |
+|  Code Challenge 12   | [stack-queue-animal-shelter](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/stack-queue-animal-shelter)  |
+
 
 
 
