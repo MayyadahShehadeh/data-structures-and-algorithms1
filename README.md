@@ -17,6 +17,7 @@
 |  Code Challenge 12   | [stack-queue-animal-shelter](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/stack-queue-animal-shelter)  |
 |  Code Challenge 13   | [stack-queue-brackets](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/stack-queue-brackets)  |
 |  Code Challenge 13   | [stack-queue-brackets](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/Max-Stack)  |
+|  Code Challenge 13   | [stack-queue-brackets](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/trees)  |
 
 
 
