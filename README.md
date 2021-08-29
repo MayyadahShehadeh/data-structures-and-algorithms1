@@ -18,6 +18,7 @@
 |  Code Challenge 13   | [stack-queue-brackets](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/stack-queue-brackets)  |
 |  Code Challenge 14   | [Max-Stack](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/Max-Stack)  |
 |  Code Challenge 15  | [trees](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/trees)  |
+|  Code Challenge 16   | [tree-max](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/tree-max)  |
 
 
 
