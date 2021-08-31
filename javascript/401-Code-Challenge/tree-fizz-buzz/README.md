@@ -1,0 +1,1 @@
+![fizzBuzz](../imgs/challenge18.png)
