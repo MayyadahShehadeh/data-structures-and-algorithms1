@@ -17,8 +17,7 @@
 |  Code Challenge 15   | [trees](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/trees)  |
 |  Code Challenge 16   | [tree-max](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/tree-max)  |
 |  Code Challenge 17   | [tree-breadth-first](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/tree-breadth-first)  |
-
-
+|  Code Challenge 18   | [tree-fizz-buzz](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/tree-fizz-buzz)  |
 
 
 
