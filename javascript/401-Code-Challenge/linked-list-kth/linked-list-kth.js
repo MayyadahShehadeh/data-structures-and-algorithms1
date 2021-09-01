@@ -78,12 +78,18 @@ while(check){
 
     kthFromEnd(k) {
         let current = this.head;
-     
+     let newArray=[];
+        while(current){
+newArray.push(current.value);
+current= current.next;
+        }
+        if(k>newArray.length){
+            return 'error';
+        }
+        newArray.reverse();
+        return newArray[k];
+
     }
-
-
-
-
 
 
 }
@@ -100,7 +106,9 @@ newNode.toString();
 
 console.log(newNode.toString());
 console.log(newNode);
-
+console.log('kth:',newNode.kthFromEnd(1));
+console.log('kth:',newNode.kthFromEnd(0));
+console.log('kth:',newNode.kthFromEnd(6));
 
 
 module.exports = LinkedList;

@@ -1,0 +1,1 @@
+![kth](../imgs/challenge07.png)
