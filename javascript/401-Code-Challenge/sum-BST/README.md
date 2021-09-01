@@ -1,0 +1,1 @@
+![bst](../imgs/challenge19.png)
