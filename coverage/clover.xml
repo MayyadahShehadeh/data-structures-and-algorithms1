@@ -1,23 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631556506010" clover="3.2.0">
-  <project timestamp="1631556506010" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="14" ncloc="14" packages="1" files="1" classes="1"/>
-    <file name="SelectionSort.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/SelectionSort/SelectionSort.js">
-      <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="16" type="stmt"/>
-      <line num="7" count="16" type="stmt"/>
-      <line num="9" count="16" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="14" type="stmt"/>
-      <line num="11" count="14" type="stmt"/>
-      <line num="14" count="16" type="stmt"/>
-      <line num="17" count="4" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="1" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="25" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
+<coverage generated="1631622762809" clover="3.2.0">
+  <project timestamp="1631622762809" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="28" coveredelements="28" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="quickSort.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/quickSort/quickSort.js">
+      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="4" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="7" count="8" type="stmt"/>
+      <line num="8" count="8" type="stmt"/>
+      <line num="11" count="19" type="stmt"/>
+      <line num="15" count="8" type="stmt"/>
+      <line num="16" count="8" type="stmt"/>
+      <line num="17" count="8" type="stmt"/>
+      <line num="18" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="10" type="stmt"/>
+      <line num="20" count="10" type="stmt"/>
+      <line num="23" count="8" type="stmt"/>
+      <line num="24" count="8" type="stmt"/>
+      <line num="28" count="18" type="stmt"/>
+      <line num="29" count="18" type="stmt"/>
+      <line num="30" count="18" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
