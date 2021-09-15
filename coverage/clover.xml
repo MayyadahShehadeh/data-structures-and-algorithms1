@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631622762809" clover="3.2.0">
-  <project timestamp="1631622762809" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3" elements="28" coveredelements="28" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
-    <file name="quickSort.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/quickSort/quickSort.js">
-      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-      <line num="4" count="19" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="8" type="stmt"/>
-      <line num="7" count="8" type="stmt"/>
-      <line num="8" count="8" type="stmt"/>
-      <line num="11" count="19" type="stmt"/>
-      <line num="15" count="8" type="stmt"/>
-      <line num="16" count="8" type="stmt"/>
-      <line num="17" count="8" type="stmt"/>
-      <line num="18" count="22" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="10" type="stmt"/>
-      <line num="20" count="10" type="stmt"/>
-      <line num="23" count="8" type="stmt"/>
-      <line num="24" count="8" type="stmt"/>
-      <line num="28" count="18" type="stmt"/>
-      <line num="29" count="18" type="stmt"/>
-      <line num="30" count="18" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-      <line num="39" count="1" type="stmt"/>
+<coverage generated="1631703142655" clover="3.2.0">
+  <project timestamp="1631703142655" name="All files">
+    <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2" elements="35" coveredelements="35" complexity="0" loc="25" ncloc="25" packages="1" files="1" classes="1"/>
+    <file name="mergeSort.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/mergeSort/mergeSort.js">
+      <metrics statements="25" coveredstatements="25" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <line num="5" count="22" type="stmt"/>
+      <line num="7" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="10" type="stmt"/>
+      <line num="9" count="10" type="stmt"/>
+      <line num="10" count="10" type="stmt"/>
+      <line num="12" count="10" type="stmt"/>
+      <line num="13" count="10" type="stmt"/>
+      <line num="15" count="10" type="stmt"/>
+      <line num="17" count="22" type="stmt"/>
+      <line num="24" count="10" type="stmt"/>
+      <line num="25" count="10" type="stmt"/>
+      <line num="26" count="10" type="stmt"/>
+      <line num="28" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="22" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="10" type="stmt"/>
+      <line num="31" count="10" type="stmt"/>
+      <line num="36" count="12" type="stmt"/>
+      <line num="37" count="12" type="stmt"/>
+      <line num="39" count="22" type="stmt"/>
+      <line num="43" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="44" count="6" type="stmt"/>
+      <line num="47" count="4" type="stmt"/>
+      <line num="52" count="1" type="stmt"/>
+      <line num="53" count="1" type="stmt"/>
+      <line num="55" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
