@@ -24,6 +24,7 @@
 |  Code Challenge 26   | [InsertionSort](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/InsertionSort)  |
 |  Code Challenge 27   | [mergeSort](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/mergeSort)  |
 |  Code Challenge 28   | [quickSort](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/quickSort)  |
+|  Code Challenge 30   | [hashTable](https://github.com/MayyadahShehadeh/data-structures-and-algorithms1/tree/master/javascript/401-Code-Challenge/hashTable)  |
 
 
 
