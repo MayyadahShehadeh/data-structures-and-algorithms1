@@ -1,58 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631976169764" clover="3.2.0">
-  <project timestamp="1631976169764" name="All files">
-    <metrics statements="49" coveredstatements="46" conditionals="10" coveredconditionals="8" methods="9" coveredmethods="9" elements="68" coveredelements="63" complexity="0" loc="49" ncloc="49" packages="1" files="1" classes="1"/>
+<coverage generated="1632057803338" clover="3.2.0">
+  <project timestamp="1632057803338" name="All files">
+    <metrics statements="44" coveredstatements="42" conditionals="12" coveredconditionals="11" methods="10" coveredmethods="10" elements="66" coveredelements="63" complexity="0" loc="44" ncloc="44" packages="1" files="1" classes="1"/>
     <file name="hashTable.js" path="/home/mayyadah/ASAC/amman401/data-structures-and-algorithms1/javascript/401-Code-Challenge/hashTable/hashTable.js">
-      <metrics statements="49" coveredstatements="46" conditionals="10" coveredconditionals="8" methods="9" coveredmethods="9"/>
-      <line num="5" count="7" type="stmt"/>
-      <line num="6" count="7" type="stmt"/>
-      <line num="12" count="5" type="stmt"/>
-      <line num="15" count="7" type="stmt"/>
-      <line num="16" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="17" count="5" type="stmt"/>
-      <line num="18" count="5" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="21" count="2" type="stmt"/>
+      <metrics statements="44" coveredstatements="42" conditionals="12" coveredconditionals="11" methods="10" coveredmethods="10"/>
+      <line num="5" count="13" type="stmt"/>
+      <line num="6" count="13" type="stmt"/>
+      <line num="12" count="12" type="stmt"/>
+      <line num="15" count="13" type="stmt"/>
+      <line num="16" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="12" type="stmt"/>
+      <line num="18" count="12" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
       <line num="22" count="0" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
-      <line num="30" count="2" type="stmt"/>
-      <line num="31" count="2" type="stmt"/>
-      <line num="36" count="15" type="stmt"/>
-      <line num="37" count="52" type="stmt"/>
-      <line num="38" count="52" type="stmt"/>
-      <line num="47" count="7" type="stmt"/>
-      <line num="48" count="7" type="stmt"/>
-      <line num="49" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="50" count="5" type="stmt"/>
-      <line num="52" count="7" type="stmt"/>
-      <line num="53" count="7" type="stmt"/>
-      <line num="58" count="5" type="stmt"/>
-      <line num="59" count="5" type="stmt"/>
-      <line num="61" count="5" type="stmt"/>
-      <line num="62" count="7" type="cond" truecount="2" falsecount="0"/>
-      <line num="63" count="5" type="stmt"/>
-      <line num="65" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="36" count="29" type="stmt"/>
+      <line num="37" count="91" type="stmt"/>
+      <line num="38" count="91" type="stmt"/>
+      <line num="47" count="13" type="stmt"/>
+      <line num="48" count="13" type="stmt"/>
+      <line num="49" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="50" count="12" type="stmt"/>
+      <line num="52" count="13" type="stmt"/>
+      <line num="53" count="13" type="stmt"/>
+      <line num="58" count="2" type="stmt"/>
+      <line num="59" count="2" type="stmt"/>
+      <line num="61" count="2" type="stmt"/>
+      <line num="62" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="63" count="2" type="stmt"/>
+      <line num="65" count="1" type="cond" truecount="1" falsecount="1"/>
       <line num="66" count="0" type="stmt"/>
-      <line num="69" count="2" type="stmt"/>
-      <line num="76" count="2" type="stmt"/>
-      <line num="78" count="2" type="cond" truecount="1" falsecount="1"/>
-      <line num="79" count="2" type="stmt"/>
-      <line num="81" count="0" type="stmt"/>
-      <line num="86" count="1" type="stmt"/>
-      <line num="87" count="1" type="stmt"/>
-      <line num="88" count="1" type="stmt"/>
-      <line num="89" count="1" type="stmt"/>
-      <line num="90" count="1" type="stmt"/>
-      <line num="92" count="1" type="stmt"/>
-      <line num="93" count="1" type="stmt"/>
-      <line num="94" count="1" type="stmt"/>
+      <line num="69" count="1" type="stmt"/>
+      <line num="76" count="13" type="stmt"/>
+      <line num="78" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="79" count="3" type="stmt"/>
+      <line num="81" count="10" type="stmt"/>
+      <line num="86" count="3" type="stmt"/>
+      <line num="87" count="3" type="stmt"/>
+      <line num="88" count="3" type="stmt"/>
+      <line num="90" count="3" type="stmt"/>
+      <line num="92" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="93" count="2" type="stmt"/>
+      <line num="95" count="10" type="stmt"/>
       <line num="97" count="1" type="stmt"/>
-      <line num="99" count="1" type="stmt"/>
-      <line num="100" count="1" type="stmt"/>
-      <line num="101" count="1" type="stmt"/>
-      <line num="102" count="1" type="stmt"/>
-      <line num="103" count="1" type="stmt"/>
-      <line num="105" count="1" type="stmt"/>
+      <line num="119" count="1" type="stmt"/>
+      <line num="120" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

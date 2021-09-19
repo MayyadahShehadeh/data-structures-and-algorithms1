@@ -1,5 +1,4 @@
-const Hashmap = require('../hashTable');
-
+const {Hashmap,repeatedWord} = require('../hashTable');
 
 describe('hashtable', () => {
     let hashTable = new Hashmap(1024);
@@ -20,6 +19,19 @@ it('Successfully retrieve a value from a bucket within the hashtable that has a 
 it('Successfully retrieve a value from a bucket within the hashtable that has a collision', ()=>{
     expect(hashTable.hash('name')).toBe(951);
 });
+  // ------------------------ for repeated word function -------------------------
+
+it('can return repeated word successfuly', () => {
+     let inputString = 'what do you do';
+     expect(repeatedWord(inputString)).toBe('do');
+});
+it('return error when not found repeated word', () => {
+     let inputString = 'it was great day';
+     expect(repeatedWord(inputString)).toBe('there is no repeated word');
+});
+
+
+
 })
 
 
