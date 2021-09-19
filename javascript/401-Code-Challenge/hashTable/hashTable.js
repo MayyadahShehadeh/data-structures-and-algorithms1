@@ -82,24 +82,43 @@ class Hashmap {
         
     }
 }
+function repeatedWord(string) {
+    let hashmap = new Hashmap(1024);
+    let inputString = string.split(',').join('').split(' ');
+    console.log('log the input stringg ::', inputString);
 
-let hashmap = new Hashmap(1024);
-hashmap.add('name', 'Samah');
-hashmap.add('age', 23);
-hashmap.add('cat', 'Kitty');
-hashmap.add('act', 'Jonny Depp');
+    for (let i = 0; i < inputString.length; i++) {
+    
+      if (hashmap.contain(inputString[i])) {
+        return inputString[i];
+      }
+        hashmap.add(inputString[i]);
+    }
+    return 'there is no repeated word';
+  }
 
-console.log('getttt',(hashmap.get('name')));
-console.log('gettt22',(hashmap.get('cat')));
-console.log('gettt3333',(hashmap.get('act')));
+// let hashmap = new Hashmap(1024);
+// hashmap.add('name', 'Samah');
+// hashmap.add('age', 23);
+// hashmap.add('cat', 'Kitty');
+// hashmap.add('act', 'Jonny Depp');
+
+// console.log('getttt',(hashmap.get('name')));
+// console.log('gettt22',(hashmap.get('cat')));
+// console.log('gettt3333',(hashmap.get('act')));
 // console.log('gettt4444',(hashmap.get('nulll')));
 
-console.log('contains:', (hashmap.contain('name')));
+// console.log('contains:', (hashmap.contain('name')));
 
-console.log(hashmap)
-console.log(hashmap.map[951]);
-console.log(hashmap.map[75]);
-console.log(hashmap.map[520]);
-console.log(hashmap.map[520].head.next);
+// console.log(hashmap)
+// console.log(hashmap.map[951]);
+// console.log(hashmap.map[75]);
+// console.log(hashmap.map[520]);
+// console.log(hashmap.map[520].head.next);
 
-module.exports = Hashmap;
+console.log('reapeated word::', (repeatedWord('what do you do')));
+module.exports = 
+{
+    Hashmap,
+    repeatedWord
+}
