@@ -97,6 +97,32 @@ function repeatedWord(string) {
     return 'there is no repeated word';
   }
 
+function isUnique(string){
+    let hashmap = new Hashmap(1024);
+if (!string) return'please input valid string';
+
+    let str= string.split('') // to convert the string to characters array
+    .filter(function(entry) { return entry.trim() != ''; }) // to remove space from characters array
+
+    for (let i=0; i< str.length;i++){
+
+if(hashmap.contain(str[i])){
+    return false;
+}
+hashmap.add(str[i]);
+}
+return true
+}
+
+console.log(isUnique(''));
+console.log(isUnique('The quick brown fox jumps over the lazy dog'));
+console.log(isUnique('I love cats'));
+console.log(isUnique('Donald the duck'));
+
+
+
+
+
 // let hashmap = new Hashmap(1024);
 // hashmap.add('name', 'Samah');
 // hashmap.add('age', 23);
@@ -116,9 +142,10 @@ function repeatedWord(string) {
 // console.log(hashmap.map[520]);
 // console.log(hashmap.map[520].head.next);
 
-console.log('reapeated word::', (repeatedWord('what do you do')));
+// console.log('reapeated word::', (repeatedWord('what do you do')));
 module.exports = 
 {
     Hashmap,
-    repeatedWord
+    repeatedWord,
+    isUnique
 }
