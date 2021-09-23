@@ -74,8 +74,6 @@ while(check){
 // --------------------------------------------------------------
 
 
-
-
     kthFromEnd(k) {
         let current = this.head;
      let newArray=[];
@@ -98,8 +96,9 @@ let newNode = new LinkedList();
 newNode.addHead(1);
 newNode.append(2);
 newNode.append(4);
+newNode.append(7);
 
-newNode.addHead(3);
+// newNode.addHead(3);
 
 newNode.include(2);
 newNode.toString();

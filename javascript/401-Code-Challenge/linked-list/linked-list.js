@@ -57,7 +57,7 @@ while(check){
 
     toString() {
 
-       
+
         let head = this.head;
         let string="";
         while (head) {
