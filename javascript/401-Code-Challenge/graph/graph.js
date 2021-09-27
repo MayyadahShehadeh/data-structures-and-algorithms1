@@ -36,6 +36,32 @@ class Graph {
         }
         return list;
       }
+
+      breadthFirst(startNode) {
+        let queue = [];
+        let visitedNodes = [];
+
+        queue.unshift(startNode);
+        visitedNodes.push(startNode);
+
+        while (queue.length) {
+            const current = queue.pop();
+            const neighbors = this.getNeighbours(current);
+
+            for (let neighbor of neighbors) {
+                let neighborNode = neighbor.vertex;
+                if (visitedNodes.includes(neighborNode)) {
+                    continue;
+                } else {
+                    visitedNodes.push(neighborNode);
+                    queue.unshift(neighborNode);
+                }
+            }
+        }
+        return visitedNodes;
+    }
+
+
 }
 
 const myGraph = new Graph();
@@ -62,6 +88,8 @@ myGraph.addDirectedEdge(five, three);
 
 console.log("------ neighbours of 2------")
 console.log(myGraph.getNeighbours(two));
+
+console.log('breadth', myGraph.breadthFirst(zero));
 
 console.log('getNodes:',myGraph.getNodes());
 for (const [k,v] of myGraph.adjacencyList.entries()) {
